@@ -1,21 +1,23 @@
-<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
-<html lang="es"> <!-- Inicio del documento HTML con el atributo 'lang' para definir el idioma en español -->
+<!DOCTYPE html> 
+<html lang="es"> 
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8"> <!-- Configuración del juego de caracteres UTF-8 -->
-  <title>Central</title> <!-- Título de la página en la barra de título del navegador -->
+  <meta charset="UTF-8">
+  <title>Central</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Enlace a la hoja de estilos Bootstrap para el diseño de la página -->
-  <link rel="stylesheet" href="/CSS/paginaPrincipal.css"> <!-- Enlace a una hoja de estilos personalizada -->
+ <link rel="stylesheet" href="/CSS/paginaPrincipal.css">
 </head>
 <body>
-
+  <!-- Aqui empieza el menu con el navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand navbar-brand-image" href="index.html">
-        <img class="logo" src="/IMG/central.jfif" alt="Logotipo"> <!-- Inserción del logotipo de la página -->
+        <img class="logo" 
+        src="/IMG/central.jfif" alt="Logotipo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span> <!-- Botón para mostrar u ocultar el menú de navegación en dispositivos móviles -->
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -26,45 +28,74 @@
           <a class="nav-link" href="dota.html">DOTA</a>
           <a class="nav-link" href="ubi.html">Ubicación</a>
           <a class="nav-link" href="Login.html">Login</a>
-          <!-- Menú de navegación con enlaces a diferentes páginas -->
         </div>
       </div>
     </div>
   </nav>
-
+  <!--Aqui empieza el contendio de la pagina tambien se agrega clases y las imagenes al carusel-->
   <div class="container mt-4">
-    <h1>La mejor página para conocer de esports</h1> <!-- Encabezado principal de la página -->
-    <p>En esta página te convertirás en experto en minutos sobre cuáles son las mejores competencias de esports</p> <!-- Párrafo descriptivo -->
+    <h1>La mejor página para conocer de esports</h1>
+    <p>En esta página te convertirás experto en minutos sobre cuáles son las mejores competencias de esports </p>
   </div>
-
   <div class="container mt-4">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <!-- Elementos del carrusel de imágenes -->
         <div class="carousel-item active">
           <a href="league.html">
             <div class="carousel-content">
               <img src="/IMG/lol worlds.jpg" alt="Imagen 1" class="d-block w-100">
               <div class="carousel-caption">
-                <h3>League of Legends Worlds</h3>
-                <p>El gran torneo de League of Legends a nivel internacional.</p>
+                <h3>League of legends Worlds</h3>
+                <p>El gran torneo de league of legedns a nivel internacional.</p>
               </div>
             </div>
           </a>
         </div>
-        <!-- Los demás elementos del carrusel siguen un patrón similar -->
+        <div class="carousel-item">
+          <a href="csgo.html">
+            <div class="carousel-content">
+              <img src="/IMG/major csgo.jpg" alt="Imagen 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <h3>Major CSGO</h3>
+                <p>El torneo de Counter Strick Global.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="evo.html">
+            <div class="carousel-content">
+              <img src="/IMG/evo.jpg" alt="Imagen 3" class="d-block w-100">
+              <div class="carousel-caption">
+                <h3>Evolution Championship Series</h3>
+                <p>Torneo de Peleas.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="dota.html">
+            <div class="carousel-content">
+              <img src="/IMG/dota.jpg" alt="Imagen 4" class="d-block w-100">
+              <div class="carousel-caption">
+                <h3>Major DOTA2</h3>
+                <p>La gran competencia de DOTA</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
       <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Control para retroceder en el carrusel -->
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </a>
       <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Control para avanzar en el carrusel -->
+        <span class="carousel-control-next-icon" ariahidden="true"></span>
         <span class="visually-hidden">Next</span>
       </a>
     </div>
   </div>
-
+<!--Aqui es el pie de pagina con la informacion de la pagina simulada-->
   <footer class="footer mt-4">
     <div class="container">
       <div class="row">
@@ -72,26 +103,25 @@
           <h4>Redes sociales</h4>
           <ul class="list-unstyled">
             <li><a href="https://www.facebook.com">Facebook</a></li>
-            <li><a href="https://twitter.com">Twitter</a></li>
-            <li><a href="https://www.youtube.com">YouTube</a></li>
-            <li><a href="https://www.tiktok.com">TikTok</a></li>
+              <li><a href="https://twitter.com">Twitter</a></li>
+              <li><a href="https://www.youtube.com">YouTube</a></li>
+              <li><a href="https://www.tiktok.com">TikTok</a></li>
           </ul>
         </div>
         <div class="col-md-6">
           <h4>Contacto</h4>
-          <p>Teléfono: 4491111111</p>
+          <p>Telefono: 4491111111</p>
           <p>Correo: al1111111@edu.uaa.mx</p>
           <p>Lugar: Universidad Autónoma de Aguascalientes, 20100 Aguascalientes, Ags.</p>
         </div>
         <div class="col-md-3">
           <h4>Derechos de autor</h4>
-          <p>Central esports© 2023</p> <!-- Información de contacto y derechos de autor en el pie de página -->
+          <p>Central esports© 2023</p>
         </div>
       </div>
     </div>
   </footer>
-
+<<!--Aqui se llama el script de bootstrap acompano de java-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-m6d5xy17zHosD4zsqV5f2DH1/Xm4tKDx9qDlFODPu7zFbIq2TWxx5lD..."></script>
-  <!-- Inclusión del archivo JavaScript de Bootstrap para funcionalidades interactivas -->
 </body>
 </html>
