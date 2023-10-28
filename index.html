@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
+<html lang="es"> <!-- Inicio del documento HTML con el atributo 'lang' para definir el idioma en español -->
+<head>
+  <meta charset="UTF-8"> <!-- Configuración del juego de caracteres UTF-8 -->
+  <title>Central</title> <!-- Título de la página en la barra de título del navegador -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Enlace a la hoja de estilos Bootstrap para el diseño de la página -->
+  <link rel="stylesheet" href="/CSS/paginaPrincipal.css"> <!-- Enlace a una hoja de estilos personalizada -->
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-image" href="index.html">
+        <img class="logo" src="/IMG/central.jfif" alt="Logotipo"> <!-- Inserción del logotipo de la página -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> <!-- Botón para mostrar u ocultar el menú de navegación en dispositivos móviles -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">Inicio</a>
+          <a class="nav-link" href="league.html">LoL</a>
+          <a class="nav-link" href="csgo.html">CSGO</a>
+          <a class="nav-link" href="evo.html">EVO</a>
+          <a class="nav-link" href="dota.html">DOTA</a>
+          <a class="nav-link" href="ubi.html">Ubicación</a>
+          <a class="nav-link" href="Login.html">Login</a>
+          <!-- Menú de navegación con enlaces a diferentes páginas -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1>La mejor página para conocer de esports</h1> <!-- Encabezado principal de la página -->
+    <p>En esta página te convertirás en experto en minutos sobre cuáles son las mejores competencias de esports</p> <!-- Párrafo descriptivo -->
+  </div>
+
+  <div class="container mt-4">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Elementos del carrusel de imágenes -->
+        <div class="carousel-item active">
+          <a href="league.html">
+            <div class="carousel-content">
+              <img src="/IMG/lol worlds.jpg" alt="Imagen 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <h3>League of Legends Worlds</h3>
+                <p>El gran torneo de League of Legends a nivel internacional.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Los demás elementos del carrusel siguen un patrón similar -->
+      </div>
+      <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Control para retroceder en el carrusel -->
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Control para avanzar en el carrusel -->
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Redes sociales</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://www.youtube.com">YouTube</a></li>
+            <li><a href="https://www.tiktok.com">TikTok</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4>Contacto</h4>
+          <p>Teléfono: 4491111111</p>
+          <p>Correo: al1111111@edu.uaa.mx</p>
+          <p>Lugar: Universidad Autónoma de Aguascalientes, 20100 Aguascalientes, Ags.</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Derechos de autor</h4>
+          <p>Central esports© 2023</p> <!-- Información de contacto y derechos de autor en el pie de página -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-m6d5xy17zHosD4zsqV5f2DH1/Xm4tKDx9qDlFODPu7zFbIq2TWxx5lD..."></script>
+  <!-- Inclusión del archivo JavaScript de Bootstrap para funcionalidades interactivas -->
+</body>
+</html>

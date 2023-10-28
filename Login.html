@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/CSS/login.css">
+  <title>Login y Registro</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form id="login-form" action="index.html" method="get">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="password">Contraseña</label>
+                    </div>
+                    <button type="submit">iniciar sesión</button>
+                    <div class="register">
+                        <p>Nuevo usuario? <a href="#" id="show-register-form">Crear cuenta</a></p>
+                    </div>
+                </form>
+                <form id="register-form" style="display: none;">
+                    <h2>Registro</h2>
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="text" name="username" required>
+                        <label for="username">Nombre de usuario</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="password">Contraseña</label>
+                    </div>
+                    <button type="submit">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="/JS/login.js"></script>
+</body>
+</html>

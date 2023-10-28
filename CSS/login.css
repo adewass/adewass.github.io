@@ -1,0 +1,81 @@
+/* Importa la fuente "Roboto" desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/* Estilos generales para el cuerpo del documento */
+body {
+  background-color: #333; /* Color de fondo del cuerpo */
+  color: #fff; /* Color del texto */
+  font-family: 'Roboto', sans-serif; /* Fuente utilizada en todo el cuerpo */
+}
+
+/* Estilos para el contenedor del formulario */
+.form-box {
+  width: 300px; /* Ancho del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+  padding: 20px; /* Espacio de relleno interno */
+  background-color: #222; /* Color de fondo del contenedor */
+}
+
+/* Estilos para encabezados de nivel 2 (h2) */
+h2 {
+  text-align: center; /* Texto centrado */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para los elementos de entrada de texto */
+.inputbox {
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para iconos de Ionicons */
+ion-icon {
+  font-size: 16px; /* Tamaño de fuente */
+  margin-right: 10px; /* Margen derecho */
+  color: #fff; /* Color de los iconos */
+}
+
+/* Estilos para los campos de entrada de texto */
+input {
+  width: 100%; /* Ancho del 100% del contenedor */
+  padding: 10px; /* Relleno interior */
+  border: 1px solid #ccc; /* Borde con un color */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para etiquetas de texto */
+label {
+  display: block; /* Hace que las etiquetas se muestren en una nueva línea */
+  margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilos para elementos de "olvidar contraseña" */
+.forget {
+  text-align: right; /* Texto alineado a la derecha */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para los elementos de entrada de texto dentro de "olvidar contraseña" */
+.forget input {
+  margin-right: 10px; /* Margen derecho */
+}
+
+/* Estilos para el botón */
+button {
+  width: 100%; /* Ancho del 100% del contenedor */
+  padding: 10px; /* Relleno interior */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  background-color: #ccc; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  cursor: pointer; /* Cambia el cursor al puntero cuando se coloca sobre el botón */
+}
+
+/* Estilos para el texto "Register" */
+.register {
+  text-align: center; /* Texto centrado */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #ccc; /* Color del enlace */
+}
